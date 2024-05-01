@@ -2,7 +2,11 @@ main {
     display: flex;
     justify-content: center;
     gap: 5%; /* Adjust the gap between the cards as needed */
-}
+}  
+
+footer {
+    margin-top: auto;
+  }
 
 .h1txt {
     margin-top: 20px;
@@ -46,3 +50,18 @@ main {
     width: auto%;
     height: 100%;
 }
+
+/*footer hover/footerstyle */
+.footerhover:hover{
+    animation: bounce .3s infinite alternate;
+    
+  }
+  
+  @keyframes bounce {
+    to { transform: scale(1.2); }
+  }
+  
+  .footerstyle{
+    bottom: 0;
+  }
+  /*footer hover  */
