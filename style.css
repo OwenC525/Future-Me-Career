@@ -1,3 +1,17 @@
+main {
+    display: flex;
+    justify-content: center;
+    gap: 15%; /* Adjust the gap between the cards as needed */
+}
+
+.h1txt {
+    margin-top: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
 .headertxt {
     text-align: center;
     margin-bottom: 5px;
