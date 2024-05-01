@@ -1,7 +1,7 @@
 main {
     display: flex;
     justify-content: center;
-    gap: 15%; /* Adjust the gap between the cards as needed */
+    gap: 5%; /* Adjust the gap between the cards as needed */
 }
 
 .h1txt {
