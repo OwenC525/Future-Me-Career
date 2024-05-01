@@ -1,9 +1,34 @@
 .headertxt {
     text-align: center;
-    margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 36px;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .header {
-    background-color: gray;
+    background-color: rgb(17, 7, 87);
+}
+
+.cardstyle {
+    margin-top: 25px;
+}
+
+.cardtxt {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal
+}
+
+.cardstyle .col-md-4 {
+    display: flex;
+    align-items: center;
+}
+
+.cardstyle .col-md-4 img {
+    width: auto%;
+    height: 100%;
 }
